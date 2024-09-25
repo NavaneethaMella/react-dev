@@ -1,6 +1,4 @@
-//import { useState }, from "react";
-
-
+import { useState } from "react";
 function Statehook(){
 
 const [count,setCount]=useState(0);
@@ -11,8 +9,8 @@ const changeCount = ()=>{
 return(
     <div>
   <h1>The number of times clicked the count: {count}</h1>
-   <Button onClick={changeCount}>clickme</Button>
+   <button onClick={changeCount}> clickme </button>
    </div>
 )
 }
-export default Statehook
+export default Statehook;
