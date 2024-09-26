@@ -1,7 +1,7 @@
 import  { useContext } from "react"
-import Appcontext from '../Context/Appcontext'
+import AppContext from '../Context/AppContext'
 function Contact(){
-    const phone =useContext(Appcontext)
+    const phone =useContext(AppContext)
     return(
         <div>
             <h2>Contact</h2>

@@ -1,16 +1,15 @@
-
+import React from 'react'
 import './App.css';
-import Statehook from './Statehook';
-import UseState from './UseState';
-import Useeffect from './Useeffect'
-import UseRef from './UseRef'
+import AppContext from '../Context/AppContext';
+import Profile from '../Context/Profile'
+import Footer from '../Context/Footer'
 function App() {
   return (
     <div className="App">
-      <Statehook></Statehook>
-      <UseState></UseState>
-      <Useeffect></Useeffect>
-      <UseRef></UseRef>
+      <AppContext></AppContext>
+      <Profile></Profile>
+      <Footer></Footer>
+     
     </div>
   );
 }

@@ -1,8 +1,8 @@
-import React from "react"
-import {useContext} from React
-import  Appcontext  from "../Contact/Appcontext"
+
+import {useContext} from 'react'
+import  AppContext  from '../Context/AppContext'
 function Footer(){
-    const phone =useContext(Appcontext)
+    const phone =useContext(AppContext)
     return(
         <div>
             <h2>Footer</h2>

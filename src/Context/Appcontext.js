@@ -1,10 +1,11 @@
-import { creatContext } from "react";
-export const Appcontext = createContext();
-    const contextprovider =(props) =>{
+import { createContext } from "react";
+export const AppContext = createContext();
+    const ContextProvider =(props) =>{
         const phone ="124566"
       return(
-    <Appcontext.provider value ={phone}>{props.childern}
-    </Appcontext.provider>
+    <AppContext.Provider value ={phone}>
+      {props.childern}
+    </AppContext.Provider>
       )
     }
-    export default Contextprovider
+    export default ContextProvider
