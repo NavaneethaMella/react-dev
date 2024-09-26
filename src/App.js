@@ -1,10 +1,14 @@
 import React from 'react'
 import './App.css';
-import Usereducer from './Usereducer'
+import Useeff from './Useeff'
+import Prof from './Prof'
+import Foot from './Foot'
 function App() {
   return (
     <div className="App">
-   <Usereducer></Usereducer>
+   <Useeff></Useeff>
+   <Prof></Prof>
+   <Foot></Foot>
      
     </div>
   );
