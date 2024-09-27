@@ -7,7 +7,7 @@ function ComponentA(){
 }
 export default ComponentA
 
-import React from 'react'
+/*import React from 'react'
 import './App.css';
 
 import ComponentC from './ComponentC';
@@ -23,4 +23,4 @@ function App() {
   );
 }
 
-export default App;
+export default App;*/
