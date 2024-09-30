@@ -1,12 +1,12 @@
 import React from 'react'
 import './App.css';
-import UseRef from './UseRef'
-import Userefdom from './Userefdom'
+import Forms from './Forms'
+import  Formyup from './Formyup'
 function App() {
   return (
     <div className="App">
-   <UseRef></UseRef>
-   <Userefdom></Userefdom>
+   <Forms></Forms>
+   <Formyup></Formyup>
    
     </div>
   );
