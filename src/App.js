@@ -1,11 +1,11 @@
 import React from 'react'
 import './App.css';
 
-import Propfun from './Propfun'
+import Propasarray from './Propasarray'
 function App() {
   return (
     <div className="App">
-  <Propfun></Propfun>
+  <Propasarray></Propasarray>
     </div>
   );
 }
