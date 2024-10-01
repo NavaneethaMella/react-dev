@@ -3,8 +3,8 @@ function Childcomponent(props){
         <div>
      <p>Hello,{props.name}! </p>
      <p>Age,{props.age} 
-        
      </p>
+     <p>Gender, {props.gender}</p>
      
      </div>
     )
