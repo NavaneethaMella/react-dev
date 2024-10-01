@@ -1,7 +1,8 @@
 import Childcomponent from './Childcomponent'
 function Prop(){
     return(
-        <Childcomponent name={"bhanupriya"} 
+        <Childcomponent 
+        name={"bhanupriya"} 
         age={10} 
          gender={"female"}
          />
