@@ -1,11 +1,11 @@
 import React from 'react'
 import './App.css';
 
-import Prop from './Prop'
+import Propfun from './Propfun'
 function App() {
   return (
     <div className="App">
-  <Prop></Prop>
+  <Propfun></Propfun>
     </div>
   );
 }
