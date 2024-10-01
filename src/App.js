@@ -1,11 +1,11 @@
 import React from 'react'
 import './App.css';
 
-import Propasarray from './Propasarray'
+import Conditionalren from './Conditionalren'
 function App() {
   return (
     <div className="App">
-  <Propasarray></Propasarray>
+  <Conditionalren></Conditionalren>
     </div>
   );
 }

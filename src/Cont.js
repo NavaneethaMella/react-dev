@@ -1,7 +1,15 @@
+/*import Useeff from './Useeff'
+import Prof from './Prof'
+import Foot from './Foot'
+<Useeff></Useeff>
+  
+   <Prof></Prof>
+   <Foot></Foot>
+   */
 import  { useContext } from "react"
 import {Useeff } from "./Useeff"
 function Cont(){
-    const phone = useContext(Useeff)
+    const phone=useContext(Useeff)
     console.log('Phone:',phone)
     return(
         <div>
