@@ -82,7 +82,7 @@ function Delete() {
             <td>
               <a href="https://reqres.in/api/users/2">View User</a>
             </td>
-            <td><button>delete</button></td>
+            <td><button onClick={() => deleteRecord(user.id)}>Delete</button> </td> 
           </tr>
         ))}
       </table>

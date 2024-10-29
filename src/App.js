@@ -1,11 +1,11 @@
 import React from 'react'
 import './App.css';
 
-import UserDetails from './UserDetails'
+import Delete from './Delete'
 function App() {
   return (
     <div className="App">
-<UserDetails></UserDetails>
+<Delete></Delete>
 
     </div>
   );
