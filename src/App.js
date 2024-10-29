@@ -1,11 +1,12 @@
 import React from 'react'
 import './App.css';
 
-import Conditionalren from './Conditionalren'
+import UserDetails from './UserDetails'
 function App() {
   return (
     <div className="App">
-  <Conditionalren></Conditionalren>
+<UserDetails></UserDetails>
+
     </div>
   );
 }
